@@ -1,0 +1,55 @@
+:root {
+  /* Love Language colors */
+  --color-wa: #FF6B6B;
+  --color-qt: #4ECDC4;
+  --color-rg: #FFD93D;
+  --color-as: #6BCB77;
+  --color-pt: #A78BFA;
+
+  /* Neutral palette */
+  --color-bg: #0f0f13;
+  --color-surface: #1a1a24;
+  --color-surface-2: #242432;
+  --color-border: #2e2e42;
+  --color-text-primary: #f0f0f8;
+  --color-text-secondary: #9090b0;
+  --color-text-muted: #5a5a7a;
+
+  /* Gradients */
+  --gradient-hero: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  --gradient-card: linear-gradient(145deg, #1e1e2e, #252535);
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.5);
+
+  /* Typography */
+  --font-sans: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 28px;
+  --font-size-2xl: 40px;
+  --font-size-3xl: 56px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+}

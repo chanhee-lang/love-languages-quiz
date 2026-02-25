@@ -1,0 +1,38 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  padding: var(--space-md) var(--space-xl);
+  background: linear-gradient(135deg, var(--color-pt), #7c3aed);
+  border-radius: var(--radius-full);
+  color: white;
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all var(--transition-base);
+  width: 100%;
+  max-width: 320px;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(167, 139, 250, 0.4);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.copied {
+  background: linear-gradient(135deg, var(--color-as), #16a34a);
+}
+
+.copied:hover {
+  box-shadow: 0 8px 24px rgba(107, 203, 119, 0.4);
+}
+
+.icon {
+  font-size: var(--font-size-lg);
+}
